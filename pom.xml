@@ -6,6 +6,11 @@
 	<artifactId>api-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
+
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
@@ -21,11 +26,11 @@
 			<version>4.3.0</version>
 			<scope>test</scope>
 		</dependency>
-        <dependency>
-            <groupId>org.codehaus.groovy</groupId>
-            <artifactId>groovy-all</artifactId>
-            <version>3.0.0-beta-1</version>
-            <type>pom</type>
-        </dependency>
+		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy-all</artifactId>
+			<version>3.0.0-beta-1</version>
+			<type>pom</type>
+		</dependency>
 	</dependencies>
 </project>
